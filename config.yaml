@@ -9,7 +9,7 @@ theme: hugo-refresh
 #########################################
 # This options specify where to look for the images used in this config
 # The default value is the "asset" directory of this theme
-# assetDir: "static"
+assetDir: "static"
 
 # Option to specify the default language of the theme
 # I.e., the landing language of your root 
@@ -106,11 +106,11 @@ params:
     # this options let you specify the text of the link to the homepage
     # linkText: "Homepage"  
     # option to specify the title in the homepage
-    title: Julia The White
+    title: Jake Rozran
     # option to specify the subtitle in the homepage
-    subtitle: Personal website and blog
+    subtitle: Data Guy, Dad, & Uncle
     # option to specify image in the homepage
-    image: "/images/avataaars.png" # worker.svg 
+    image: "/images/jakes_pic.jpg" # worker.svg 
     # option to specify the width of the image in the homepage
     imageWidth: 500px
 
@@ -121,12 +121,12 @@ params:
     logo: "/images/refresh-square.svg"
     # option to specify your contact email in the footer
     email: 
-      link: name.surname@domain.com
-      title: My Email
+      link: jacob.rozran@gmail.com
+      title: Email
     # option to specify your linkedin profile in the footer
     linkedin: 
-      link: your_linkedin_profile
-      title: My LinkedIn
+      link: jacob-rozran
+      title: LinkedIn
     # option to specify your facebook account in the footer; 
     # **uncomment** the lines below to show in footer
     # facebook: 
@@ -134,21 +134,21 @@ params:
     #   title: Facebook
     # option to specify your github account in the footer; 
     # **uncomment** the below lines to show in footer
-    # github: 
-    #   link: username
-    #   title: Github
+    github: 
+      link: jrozra200
+      title: Github
     # option to specify your twitter username in the footer; 
     # **uncomment** the below lines to show in footer
-    # twitter: 
-    #    link: username
-    #    title: Twitter
+    twitter: 
+      link: StatsManPHL
+      title: Twitter
     # option to specify your instagram username in the footer; 
     # **uncomment** the below lines to show in footer
     # instagram: 
     #    link: username
     #    title: Instagram
     # option to specify the copyright in the footer
-    copyright: Julia The White - 2020
+    copyright: Jake Rozran - 2020
 
 ###################################################################
 ################## multilanguage support options ##################
@@ -157,34 +157,34 @@ languages:
   en:
     languageName:       English
     weight:             1
-  ru:
-    languageName:       Russian
-    weight:             2
+  # ru:
+  #   languageName:       Russian
+  #   weight:             2
     # When Specifying different parameters for a different language 
     # you need to specify all the mandatory sub-parameters as well.
     # E.g.: if you specify the "homepage" parameter then you need to
     #       specify all mandatory sub-parameters, e.g.: "title". 
     # See example below:
-    params:
-      homepage:
-        title: Julia белая краска
-        subtitle: Персональный сайт и блог
-        image: "/images/avataaars.png" # worker.svg 
-        imageWidth: 500px
-      
+    # params:
+    #   homepage:
+    #     title: Julia белая краска
+    #     subtitle: Персональный сайт и блог
+    #     image: "/images/avataaars.png" # worker.svg 
+    #     imageWidth: 500px
+    #   
       # Some sub-parameters of the "footer" parameter
       # can be omitted because the code allows for them to be 
       # missed but they will treated as they do not exist,
       # i.e., the parameters of the default language
       # won't be inherited.
-      footer:
-        logo: "/images/refresh-square.svg"
-        email: 
-          link: имя.фамилия@домен.com
-          title: Эл. адрес
-        linkedin: 
-          link: your_linkedin_profile
-          title: LinkedIn
+      # footer:
+      #   logo: "/images/refresh-square.svg"
+      #   email: 
+      #     link: имя.фамилия@домен.com
+      #     title: Эл. адрес
+      #   linkedin: 
+      #     link: your_linkedin_profile
+      #     title: LinkedIn
         # facebook: 
         #   link: your.username
         #   title: Facebook 
@@ -197,5 +197,5 @@ languages:
         # github: 
         #   link: username
         #   title: Github
-        copyright: Julia белая краска - 2020
+#        copyright: Julia белая краска - 2020
       
