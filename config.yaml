@@ -102,9 +102,9 @@ params:
   homepage:
     # this options let you specify if you want a link to the homepage
     # it can be: "none", "menu", "footer" or "menu+footer"
-    # linkPosition: "footer" 
+    linkPosition: "menu+footer" 
     # this options let you specify the text of the link to the homepage
-    # linkText: "Homepage"  
+    linkText: "Jake Learns Data Science"  
     # option to specify the title in the homepage
     title: Jake Rozran
     # option to specify the subtitle in the homepage
@@ -122,11 +122,11 @@ params:
     # option to specify your contact email in the footer
     email: 
       link: jacob.rozran@gmail.com
-      title: Email
+      title: jacob.rozran@gmail.com
     # option to specify your linkedin profile in the footer
     linkedin: 
       link: jacob-rozran
-      title: LinkedIn
+      title: jacob-rozran
     # option to specify your facebook account in the footer; 
     # **uncomment** the lines below to show in footer
     # facebook: 
@@ -136,12 +136,21 @@ params:
     # **uncomment** the below lines to show in footer
     github: 
       link: jrozra200
-      title: Github
+      title: jrozra200
     # option to specify your twitter username in the footer; 
     # **uncomment** the below lines to show in footer
     twitter: 
       link: StatsManPHL
-      title: Twitter
+      title: StatsManPHL
+    tableau: 
+      link: jacob.rozran#!/
+      title: Tableau
+    plotly: 
+      link: ~rozran00#/
+      title: plotly
+    flickr: 
+      link: jakes_project_365/
+      title: flickr
     # option to specify your instagram username in the footer; 
     # **uncomment** the below lines to show in footer
     # instagram: 
