@@ -41,6 +41,16 @@
                 {{- end -}}
               </li>
             <li>
+              <a href="mailto:{{ .Site.Params.footer.email.link }}" target="_blank">
+                <span class="icon"><i class="fa fa-envelope"></i></span>
+                {{ if isset .Site.Params.footer.email "title" }}
+                  {{ .Site.Params.footer.email.title }}
+                {{ else }}
+                  Email
+                {{ end }}
+              </a>
+            </li>
+            <li>
               {{- with .Site.GetPage "tags" -}}
               <a href="{{- .RelPermalink -}}">
                 <span class="icon"><i class="fa fa-terminal"></i></span> 
@@ -59,18 +69,6 @@
               <h3>{{ i18n "contacts" }}</h3>
           </div>
           <ul class="link-list">
-            {{ if isset .Site.Params.footer.email "link" }}
-            <li>
-              <a href="mailto:{{ .Site.Params.footer.email.link }}" target="_blank">
-                <span class="icon"><i class="fa fa-envelope"></i></span>
-                {{ if isset .Site.Params.footer.email "title" }}
-                  {{ .Site.Params.footer.email.title }}
-                {{ else }}
-                  Email
-                {{ end }}
-              </a>
-            </li>
-            {{ end }}
             {{ if isset .Site.Params.footer.linkedin "link" }}
             <li>
               <a href="https://www.linkedin.com/{{ .Site.Params.footer.linkedin.link }}" target="_blank">

@@ -1,10 +1,9 @@
 ---
 title: "About Me"
-date: 2020-11-22T16:11:00+01:00
+date: 2020-11-22
 draft: false
-hideLastModified: true
+hideLastModified: false
 showInMenu: true
-# no need for the "summary" parameter as it is not displayed in any previews
 ---
 
 I love to learn in general, but mostly I am a data fanatic - I love reading, 
