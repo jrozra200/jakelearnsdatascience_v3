@@ -151,6 +151,9 @@ params:
     flickr: 
       link: jakes_project_365/
       title: flickr
+    resume:
+      link: cv.pdf
+      title: Jake Rozran CV
     # option to specify your instagram username in the footer; 
     # **uncomment** the below lines to show in footer
     # instagram: 
