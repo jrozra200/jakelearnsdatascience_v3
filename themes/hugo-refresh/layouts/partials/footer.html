@@ -39,7 +39,7 @@
                   {{ i18n "credits" }}
                 </a>
                 {{- end -}}
-              </li>
+            </li>
             <li>
               <a href="mailto:{{ .Site.Params.footer.email.link }}" target="_blank">
                 <span class="icon"><i class="fa fa-envelope"></i></span>
@@ -49,6 +49,14 @@
                   Email
                 {{ end }}
               </a>
+            </li>
+            <li>
+                  {{- with .Site.GetPage "/about/pdfs/cv.pdf" -}}
+                <a href="https://jakelearnsdatascience.com/about/pdfs/cv.pdf">
+                  <span class="icon"><i class="fa fa-cube"></i></span>
+                  {{ i18n "credits" }}
+                </a>
+                {{- end -}}
             </li>
             <li>
               {{- with .Site.GetPage "tags" -}}
