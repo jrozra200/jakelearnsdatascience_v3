@@ -1,20 +1,22 @@
 ---
-title: Model Comparision - ROC Curves & AUC
-author: Jake Rozran
+title: "Model Comparision - ROC Curves & AUC"
+author: "Jacob Rozran"
 date: '2020-01-27'
 slug: model-comparison--understanding-ROC-curves-and-AUC
-categories: 
-  - Data Science
-  - AI
-  - Modeling
+categories:
+- Data Science
+- AI
+- Modeling
 tags:
-  - data science
-  - AI
-  - model coparison
-  - ROC curves
-  - AUC
+- data science
+- AI
+- model coparison
+- ROC curves
+- AUC
 ---
 
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
 
 <div id="introduction" class="section level3">
@@ -74,7 +76,6 @@ Logistic Regression, and random prediction using a uniform distribution.</p>
 <h4>Step 1: Rank Order Predictions</h4>
 <p>To build the ROC curve for each model, you first rank order your predictions:</p>
 
-<center>
 <table>
 <thead>
 <tr class="header">
@@ -109,7 +110,6 @@ Logistic Regression, and random prediction using a uniform distribution.</p>
 </tr>
 </tbody>
 </table>
-</center>
 
 </div>
 <div id="step-2-calculate-tpr-fpr-for-first-iteration" class="section level4">
@@ -120,8 +120,18 @@ the remaining are predicted FALSE.</p>
 <p>From the table below, we can see that the first row is FALSE, though we are
 predicting it TRUE. This leads to the following metrics for our first iteration:</p>
 
-<center>
 <table>
+<colgroup>
+<col width="9%" />
+<col width="3%" />
+<col width="5%" />
+<col width="11%" />
+<col width="11%" />
+<col width="13%" />
+<col width="14%" />
+<col width="13%" />
+<col width="14%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="right">Iteration</th>
@@ -149,7 +159,6 @@ predicting it TRUE. This leads to the following metrics for our first iteration:
 </tr>
 </tbody>
 </table>
-</center>
 
 <p>This is what we’d expect. We have a 0% TPR on the first iteration because we got
 that single prediction wrong. Since we’ve only got 1 false positve, our FPR is
@@ -160,8 +169,21 @@ still low: 3.7%.</p>
 <p>Now, let’s go through all of the possible cut points and calculate the TPR and
 FPR.</p>
 
-<center>
 <table>
+<colgroup>
+<col width="8%" />
+<col width="10%" />
+<col width="11%" />
+<col width="2%" />
+<col width="10%" />
+<col width="11%" />
+<col width="6%" />
+<col width="6%" />
+<col width="7%" />
+<col width="7%" />
+<col width="8%" />
+<col width="8%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Actual Outcome</th>
@@ -265,7 +287,6 @@ FPR.</p>
 </tr>
 </tbody>
 </table>
-</center>
 
 </div>
 <div id="step-4-repeat-steps-1-3-for-each-model" class="section level4">
