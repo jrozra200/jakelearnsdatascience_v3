@@ -270,10 +270,10 @@ ggplot(roc_dat, aes(x = false_pos_rate, y = true_pos_rate, group = model,
     scale_color_manual(values = c("dark gray", "light blue", "navy"),
                        labels = c(paste0("Logistic Regression, AUC = ",
                                          round(as.numeric(roc_dat_log$auc), 4)),
-                                  paste0("Random Forest, AUC = ",
-                                         round(as.numeric(roc_dat_rf$auc), 4)),
                                   paste0("Random Prediction, AUC = ",
-                                         round(as.numeric(roc_dat_rand$auc), 4)))) + 
+                                         round(as.numeric(roc_dat_rand$auc), 4)),
+                                  paste0("Random Forest, AUC = ",
+                                         round(as.numeric(roc_dat_rf$auc), 4)))) + 
     theme(panel.background = element_blank(), 
           panel.grid.major = element_line("light gray"), 
           axis.ticks = element_line("light gray"), 
