@@ -3,6 +3,7 @@ title: A Data Scientist's Take on the Roadmap to AI
 author: Jacob Rozran
 date: '2019-03-23'
 slug: a-data-scientists-take-on-the-roadmap-to-ai
+summaryImage: "map.png"
 categories: 
   - Data Science
   - AI
