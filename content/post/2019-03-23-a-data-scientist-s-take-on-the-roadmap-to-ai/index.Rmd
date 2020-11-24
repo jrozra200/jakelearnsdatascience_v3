@@ -65,7 +65,7 @@ nothing. *"Don't let perfection be the enemy of good."* - paraphrased from
 Voltaire. 
 
 <center>
-![First Report - with some details removed](/post/2019-03-23-a-data-scientists-take-on-the-roadmap-to-ai/First_Report.png)
+![First Report - with some details removed](First_Report.png)
 </center>
 
 From this, I gained access to our organizations data warehouse, 
