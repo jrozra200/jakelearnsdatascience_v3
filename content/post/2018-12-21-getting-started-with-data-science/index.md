@@ -7,6 +7,8 @@ categories: [data science]
 tags: [learning, getting started, data science]
 ---
 
+updated: November 2020
+
 Everyone in the world has a "how to" guide to data science... well, maybe not everyone - 
 but there are a lot of "guides" out there. I get this question infrequently, so I thought I would do 
 my best to put together what have been my best resources for learning. 
@@ -88,5 +90,7 @@ like the conference, this podcast covers many relevant data themes.
 * [Exponential View](https://www.exponentialview.co/): Billed as a weekly "wondermissive", 
 the author Azeem Azhar covers many topics relevant to data and the greater technology 
 economy. I truly look forward to getting this newsletter every Sunday morning.  
+* [Farnam Street](https://fs.blog/): A weekly newsletter (and blog) about decision making. 
+I frequently find golden tips on how to think and frame thinking. Must read.  
 * Twitter: I follow many great data people on twitter and get a great deal of my 
 data news there.  
