@@ -53,7 +53,7 @@ client_id  <- '31528'
 secret <- 'MY_SECRET_KEY'
 
 ## CREATE YOUR STRAVA TOKEN
-token <- httr::config(token = strava_oauth(name, client_id, secret, 
+token <- httr::config(token = strava_oauth(name, client_id, secret, app_scope = "read_all",
                                            cache = TRUE)) 
 ## cache = TRUE is optional - but it saves your token to the working directory
 ```
@@ -64,7 +64,7 @@ Now that authentication is setup, using the **rStrava** package to pull activity
 data is relatively straightforward.
 
 ```{r hide_oauth_local, echo = FALSE}
-oauth_location <- "/Users/jrozra200/Documents/jakelearnsdatascience_v2/.httr-oauth"
+oauth_location <- ".httr-oauth"
 ```
 
 ```{r get_strava_data}
@@ -74,7 +74,7 @@ library(rStrava)
 stoken <- httr::config(token = readRDS(oauth_location)[[1]])
 
 ## GET STRAVA DATA USING rStrava FUNCTION FOR MY ATHLETE ID
-my_act <- get_activity_list(stoken, id = '5954092')
+my_act <- get_activity_list(stoken)
 ```
 
 This function returns a list of activities. class(my_act): `r class(my_act)`.
@@ -204,7 +204,7 @@ mon_sum_fin <- mon_sum_fin[mon_sum_fin$mon_year >= "2014-08-01" &
 
 Since `r format(min(info_df$start_date), "%B %d, %Y")`, I have - under my own power - traveled 
 `r round(sum(info_df$miles), 2)` miles. There were a few periods without much action 
-(a whole year from mid-2016 through later-2017), which is a big sad. The last 
+(a whole year from mid-2016 through later-2017), which is a bit sad. The last 
 few months have been good, though. 
 
 ```{r overall_cumulative, echo = FALSE, warning = FALSE, message = FALSE, out.width = "100%"}
