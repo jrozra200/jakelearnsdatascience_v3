@@ -69,10 +69,6 @@ This equation is created based on a training set of data – or historical,
 labeled data – and then is used to predict the likelihoods of future, unlabeled 
 data.
 
-<center>
-![Logistic Regression Example](/img/binary_classification/logistic_regression.png)
-</center>
-
 #### Decision Trees/Random Forests
 
 ##### Decision Trees
@@ -99,10 +95,6 @@ tree to continue to grow without bound, eventually you will have all identical
 events in each leaf; while this may look beneficial, it may be too specific to 
 the training data and mislabel future events. “Pruning” occurs to prevent 
 overfitting.
-
-<center>
-![Decision Tree of the Titanic Survivors](/img/machine_learning_demystified/tree.png)
-</center>
 
 ##### Random Forests
 
@@ -133,9 +125,6 @@ until you classify new events, it is quick to run.
 It can be difficult to determine what k should be. However, because it is easy 
 computationally, you can run multiple iterations without much overhead.
 
-<center>
-![Nearest Neighbor](/img/binary_classification/knn.jpg)
-</center>
 
 #### Support Vector Machines (SVM)
 
@@ -146,10 +135,6 @@ the higher dimensional space) and the closest points in each category.
 
 As you can see in the simple example below, the plane iteratively improves the 
 split between the two groups.
-
-<center>
-![Support Vector Machines](/img/binary_classification/svm.png)
-</center>
 
 There are multiple kernels that can be used with SVM, depending on the shape of 
 the data:
@@ -170,9 +155,6 @@ most easily demonstrated with image recognition – where it is able to turn
 groups of pixels into another, single value, over and over again, to provide 
 more information to train the model.
 
-<center>
-![Neural Networks](/img/binary_classification/neural_nets.gif)
-</center>
 
 ### Great. Now what?
 
@@ -315,16 +297,8 @@ time to validate.
 So – which model did best? How can you tell? We start by predicting results for 
 our test set with each model and building a confusion matrix for each:
 
-<center>
-![Confusion Matrix](/img/binary_classification/conf_mat.png)
-</center>
-
 With this, we can calculate the specificity, sensitivity, and accuracy for each 
 model.
-
-<center>
-![Equations](/img/binary_classification/equation.png)
-</center>
 
 For each value, higher is better. The best model is one that performs the best 
 in each of these counts.
