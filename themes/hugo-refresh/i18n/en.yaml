@@ -1,5 +1,7 @@
 - id: readMore
   translation: "Read more"
+- id: goTo
+  translation: "See page"
 - id: mainMenu
   translation: "Menu"
 - id: allTags

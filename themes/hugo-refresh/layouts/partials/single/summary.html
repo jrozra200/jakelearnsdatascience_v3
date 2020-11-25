@@ -55,9 +55,15 @@
         {{- end -}}
       </p> 
       <div class="action has-text-right">
+        {{- if .Params.external_link -}} 
+        <a href="{{ .Params.external_link }}" class="button is-primary">
+                {{ i18n "goTo" }}
+            </a>
+        {{ else }}
         <a href="{{- .Permalink | relURL -}}" class="button is-primary">
                 {{ i18n "readMore" }}
             </a>
+        {{ end }}
       </div>
     </div>
   </div>
