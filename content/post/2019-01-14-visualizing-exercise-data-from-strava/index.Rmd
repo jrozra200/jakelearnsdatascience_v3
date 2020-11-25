@@ -3,6 +3,7 @@ title: Visualizing Exercise Data from Strava
 author: Jacob Rozran
 date: '2019-01-14'
 slug: visualizing-exercise-data-from-strava
+summaryImage: 'ridgeplot-1.png'
 categories:
   - Data Visualization
   - Data Engineering
@@ -124,6 +125,7 @@ info_df$total_elevation_gain_ft <- info_df$total_elevation_gain *
 
 # CONVERT STRING DATE TO DATE CLASS
 info_df$start_date <- as.Date(info_df$start_date, "%Y-%m-%dT%H:%M:%SZ") 
+info_df <- info_df[info_df$start_date <= "2019-01-01", ]
 info_df$mon <- month(info_df$start_date) # PULL OUT THE MONTH (FOR GROUPING)
 info_df$year <- year(info_df$start_date) # PULL OUT THE YEAR (FOR GROUPING)
 
