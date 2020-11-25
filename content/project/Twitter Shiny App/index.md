@@ -1,19 +1,9 @@
-+++
-# Project title.
-title = "Twitter Analysis - R Shiny App"
-
-# Date this page was created.
-date = 2019-11-21T00:00:00
-
-# Project summary to display on homepage.
-summary = "I created a Shiny app that searches Twitter and does some simple analysis."
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["d3.js", "data visualization"]`
-tags = ["data visualization", "projects", "shiny", "twitter"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = "https://jakelearnsdatascience.shinyapps.io/twitter_shiny/"
-
-summaryImage = "featured.jpg"
-+++
+---
+title: Twitter Analysis - R Shiny App
+author: Jacob Rozran
+date: '2019-11-21'
+summary: "I created a Shiny app that searches Twitter and does some simple analysis."
+external_link: "https://jakelearnsdatascience.shinyapps.io/twitter_shiny/"
+tags: [data visualization, projects, shiny, twitter]
+summaryImage: "featured.jpg"
+---
