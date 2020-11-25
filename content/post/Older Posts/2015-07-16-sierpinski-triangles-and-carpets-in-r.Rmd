@@ -28,7 +28,7 @@ for readability. Actual code for this can be found
 ```{r sierpinski_triangle, warning = FALSE, message = FALSE, out.width = "100%", echo = FALSE}
 ## CREATE THE TRIANGLE WITH SIDES OF LENGTH a, CREATING n POINTS, AND        ##
 ## STARTING POINT AT (startx, starty)                                        ##
-createTriange <- function(a = 10, n = 100000, startx = a / 2, 
+createTriange <- function(a = 10, n = 50000, startx = a / 2, 
                           starty = sqrt(3) * a / 4){
         
         ## ESTABLISH THE CORNERS OF THE TRIANGLE                             ##
@@ -134,7 +134,7 @@ I updated my R script and voila - MORE BEAUTIFUL MATH!
 ``` {r sierpinski_carpet, warning = FALSE, message = FALSE, out.width = "100%", echo = FALSE}
 ## CREATE THE SQUARE WITH SIDES OF LENGTH a, CREATING n POINTS, AND          ##
 ## STARTING POINT AT (startx, starty)                                        ##
-createSquare <- function(a = 10, n = 100000, startx = a / 2, 
+createSquare <- function(a = 10, n = 50000, startx = a / 2, 
                           starty = a / 2){
         
         ## ESTABLISH THE CORNERS OF THE SQUARE                               ##
