@@ -15,13 +15,5 @@ tags = ["tableau public", "data visualization", "projects"]
 # Optional external URL for project (replaces project detail page).
 external_link = "https://public.tableau.com/profile/jacob.rozran#!/vizhome/JakeLearnsDataScience/JakeLearnsDataScienceVisitors"
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your project's folder. 
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
+summaryImage = "featured.jpg"
 +++

@@ -15,13 +15,5 @@ tags = ["articles", "philly magazine"]
 # Optional external URL for project (replaces project detail page).
 external_link = "https://www.phillymag.com/sponsor-content/data-science-statistics-cell-phones/"
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your project's folder. 
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
+summaryImage = "featured.jpg"
 +++
