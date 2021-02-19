@@ -15,7 +15,7 @@ tags:
   - maching learning
 ---
 
-### INTRODUCTION 
+# INTRODUCTION 
 
 Recently I was asked by a former colleague about getting into AI. He has 
 truly big data and wants to use this data to power "AI" - if the 
@@ -37,7 +37,7 @@ coming back to previous steps.
 2. Understand (Advanced Analytics)
 3. Artificial Intelligence (Data Science)
 
-### BASELINE (REPORTING)
+# BASELINE (REPORTING)
 
 *Fun fact:* You cannot effectively predict anything if you cannot 
 measure the impact. 
@@ -76,7 +76,7 @@ able to see the impact of our decisions at a glance.
 This new understanding inevitably leads to more questions - queue 
 step 2: **Understanding**.
 
-### UNDERSTANDING (ADVANCED ANALYTICS)
+# UNDERSTANDING (ADVANCED ANALYTICS)
 
 If you have never circulated reports and dashboards to others... let 
 me fill you in on something: it will ALWAYS lead to additional, 
@@ -97,7 +97,7 @@ do advanced analytics will help you to understand the fine details
 of your business AND ... (drum roll) ... **will help you to understand** 
 **which part of your business is most ripe for "AI"!**
 
-### ARTIFICIAL INTELLIGENCE (DATA SCIENCE)
+# ARTIFICIAL INTELLIGENCE (DATA SCIENCE)
 
 It is at this point that you will able to do real, bonafide, **data **
 **science**. 
@@ -128,7 +128,7 @@ to identify new targets and enrich your understanding of your business!
 
 Data science usually is very specific thing and takes many forms!
 
-### SUMMARY
+# SUMMARY
 
 Getting to **data science** is a process - it will take an 
 investment. There are products out there that will help you shortcut 
