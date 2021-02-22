@@ -16,8 +16,7 @@ tags:
   - Strava
 ---
 
-<link href="index_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
-<script src="index_files/anchor-sections/anchor-sections.js"></script>
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
 <div id="introduction" class="section level3">
@@ -69,8 +68,9 @@ stoken &lt;- httr::config(token = readRDS(oauth_location)[[1]])
 
 ## GET STRAVA DATA USING rStrava FUNCTION FOR MY ATHLETE ID
 my_act &lt;- get_activity_list(stoken)</code></pre>
+<pre><code>## Auto-refreshing stale OAuth token.</code></pre>
 <p>This function returns a list of activities. class(my_act): list.</p>
-<p>In my case, there are 379 activies.</p>
+<p>In my case, there are 439 activies.</p>
 </div>
 <div id="formatting-the-data" class="section level3">
 <h3>FORMATTING THE DATA</h3>
@@ -105,7 +105,7 @@ though I’ve suppressed the code here. You can see all of the code on
 1300.85 miles. There were a few periods without much action
 (a whole year from mid-2016 through later-2017), which is a bit sad. The last
 few months have been good, though.</p>
-<p><img src="index_files/figure-html/overall_cumulative-1.png" width="100%" /></p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/overall_cumulative-1.png" width="100%" /></p>
 <p>Here’s a similar view, but split by activity.</p>
 <ul>
 <li>I’ve been running recently.</li>
@@ -113,10 +113,10 @@ few months have been good, though.</p>
 <li>I rode the peloton when we first got it, but not since.</li>
 <li>I was a walker when I first tore the labrum in my hip in early 2018.</li>
 </ul>
-<p><img src="index_files/figure-html/by_activity-1.png" width="100%" /></p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/by_activity-1.png" width="100%" /></p>
 <p>Finally, here’s the same data again, but split up in a
 <a href="https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html">ridgeplot</a>.</p>
-<p><img src="index_files/figure-html/ridgeplot-1.png" width="100%" /></p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/ridgeplot-1.png" width="100%" /></p>
 </div>
 <div id="summary" class="section level3">
 <h3>SUMMARY</h3>
